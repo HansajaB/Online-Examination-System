@@ -1,0 +1,120 @@
+
+.cta img {
+  margin: auto;
+  width: 90%;
+  /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/16108649531504151302_menorahoes.jpg);
+    */
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  height: 320px;
+  position: relative;
+}
+.myImg {
+  display: none;
+}
+
+.cta h1 {
+  color: black;
+  margin-bottom: 20px;
+  padding: 0%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.cta h1:hover {
+  color: #87cee8;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.course-col {
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 20px 45px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  background-color: #ebf4fa;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 30px;
+  color: blue;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+h2 a {
+  text-decoration: none;
+}
+p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description{
+  color: rgb(71, 71, 71);
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+.box {
+  padding-left: 60%;
+  margin: 25px;
+  position: absolute;
+}
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.box input[type="text"] {
+  background: #92c7c7;
+  width: 340px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+  padding: 0 25px;
+}
+.box input[type="submit"] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #95b9c7;
+  color: black;
+  font-weight: bold;
+}
+.box input[type="submit"]:hover {
+  background: palevioletred;
+}
+
+.button input[type="submit"] {
+  background: #307d7e;
+  color: white;
+  margin-top: 30px;
+}
+
+.enrollbutton{
+  background-color: rgb(63, 120, 243);
+  color: white;
+  padding: 2%;
+}

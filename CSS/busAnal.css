@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#hero {
+  height: 180vh;
+  width: 100%;
+  margin: 20vh 0 0 0;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-image: url("./sfimg/paico-oficial-ZDYN7azwO6c-unsplash.jpg");
+}
+
+.text-box {
+  width: 80%;
+  color: black;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.text-box h1 {
+  font-size: 40px;
+  align-content: center;
+  color: #fff;
+}
+
+.text-box p {
+  margin: 50px 5px 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.container {
+  width: 60%;
+  height: 250vh;
+  background: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(25px);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tabl {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  background: #fafafa;
+  box-shadow: 0 2px 2px rgba(32, 32, 32, 0.3);
+}
+.tabl table {
+  width: 100%;
+  height: 20%;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+th {
+  background: #40e0d0;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+tr:nth-child(odd) {
+  background-color: #cccccc;
+}
+.link a {
+  text-decoration: none;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  color: red;
+}
+.tabl a {
+  text-decoration: none;
+}
+
+.link a:hover {
+  background: #d4e6f1;
+}
+.box {
+  border: 2px solid red;
+  text-align: center;
+  padding: 20px;
+
+  background-color: #fff;
+}
+.box p {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.box h1 {
+  padding-top: 2px;
+  margin-top: 5px;
+  color: black;
+}

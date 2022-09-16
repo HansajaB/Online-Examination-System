@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .nav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .nav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 9px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .nav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+    .nav input{
+  
+      
+      float: right;
+      color: hsl(0, 0%, 4%);
+      text-align: left;
+      padding: 7px 18px;
+      text-decoration: none;
+      font-size: 22px;
+    }
+
+    body{
+      background-image: url('https://cache.careers360.mobi/media/article_images/2021/3/25/application-online.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  
+    }
+
+  
+  .nav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .nav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 9px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .nav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+    .nav input{
+  
+      
+      float: right;
+      color: hsl(0, 0%, 4%);
+      text-align: left;
+      padding: 7px 18px;
+      text-decoration: none;
+      font-size: 22px;
+    }
+    #slider {
+      position: relative;
+      width: 50%;
+      height: 30vw;
+      margin: 80px auto;
+      font-family: 'Helvetica Neue', sans-serif;
+      perspective: 1400px;
+      transform-style: preserve-3d;
+    }
+    
+    input[type=radio] {
+      position: relative;
+      top: 108%;
+      left: 50%;
+      width: 18px;
+      height: 18px;
+      margin: 0 15px 0 0;
+      opacity: 0.4;
+      transform: translateX(-83px);
+      cursor: pointer;
+    }
+    
+    
+    input[type=radio]:nth-child(5) {
+      margin-right: 0px;
+    }
+    
+    input[type=radio]:checked {
+      opacity: 1;
+    }
+    
+    
+    
+    
+    #slider label {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      color: white;
+      font-size: 70px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 400ms ease;
+    }
+    
+    #slide1 {
+   background-color: red;
+    }
+    
+    #slide2 {
+      background: yellowgreen;
+    }
+    
+    #slide3 {
+      background: dodgerblue;
+    }
+    
+  
+    
+    #s1:checked ~ #slide1,#s2:checked ~ #slide2,#s3:checked ~ #slide3{
+      
+      transform: translate3d(-5%, 0, -50px);
+    }
+    
+    /* Next Slide */
+    #s1:checked ~ #slide2,#s2:checked ~ #slide3,#s3:checked ~ #slide1 {
+  
+      transform: translate3d(15%, 0, -250px);
+    }
+  
+    #s1:checked ~ #slide3,#s2:checked ~ #slide1,#s3:checked ~ #slide2 {
+  
+      transform: translate3d(-30%, 0, -250px);
+    }
+  
+  
+  .ano{
+      
+      font-family: sans-serif;
+      color: rgb(136, 11, 11);
+      padding-left: 100px;
+      font-size: 28px;
+  }
+  
+  .list {
+    
+   
+    color:#0b0a0af7;
+    padding-left: 150px;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .r {
+    
+    color: #0b0a0af7;
+    padding-right: 50px;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  
+  .num2{
+    
+    font-family: sans-serif;
+    color: rgb(136, 11, 11);
+    padding-right: 150px;
+    font-size: 28px;
+  }
+  
+  .main{
+   
+   
+    height: 210px;
+  }
+  
+  .left{
+    
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+  
+  .ql {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  .Qlinks{
+  
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 200px;
+    height: 150px;
+    font-size: 16px;
+  
+  }
+  
+  .Qlinks h2{
+    padding-left: 10px;
+  }
+  
+  
+  
+  .address{
+  
+    padding-top: 10px;
+    height: 250px;
+    padding-left: 230px;
+  
+  }
+  
+  .address p{
+   
+    font-size: 20px;
+    font: sans-serif;
+  }
+  
+  .license{
+    
+    float: right;
+    padding-right: 100px;
+    
+  }
+  
+  .social{
+    position: relative;
+   float: right;
+   padding-right: 50px;
+   
+   
+  }
+  
+  .fa:hover{
+  
+    opacity: 0.7;
+  }
+  .feedbackBTN {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(202, 55, 55);
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 0.9rem;
+    height: 3rem;
+    padding-bottom: 10px;
+    width: 10rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+  }
+  
+  .feedbackBTN:hover {
+    background-color: rgba(25,245,237,0.55);
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa {
+    height: 30px;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .footer{
+    
+    background-color: #b1ccb7;
+  }
+  
+  
+body {
+  background-color: rgb(226, 198, 162);
+}
+.navtop {
+    background-color: #3b4656;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ebedee;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c4c8cc;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #ebedee;
+}
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ebebeb;
+    color: #666666;
+}
+

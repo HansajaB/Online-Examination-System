@@ -1,0 +1,38 @@
+.viewusermaincon33{
+    width: 100%;
+    height: 100vh;
+    margin: 20vh 0 0 0;
+}
+
+.usertablemaincontainer{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    min-height: 20vh;
+    padding: 2%;
+
+}
+
+.usertabletoprow{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.textbold{
+    font-weight: bold;
+}
+.utelement{
+    border-bottom: 1px solid gray;
+    width: 210px;
+    text-align: center;
+    padding: 1%;
+}
+
+.utelement a{
+    color: white;
+    background-color: red;
+    padding:2%;
+    border-radius: 8px;
+}
